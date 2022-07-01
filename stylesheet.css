@@ -258,14 +258,14 @@ img {
     border-radius: 2vw;
     background-color: var(--button-color);
     color: white;
-    font-size: 1rem;
-    font-weight: bolder;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .action-buttons:hover {
     transform: scale(1.05);
     cursor: pointer;
-    background-color:  rgb(0, 174, 255)
+    background-color:  rgb(0, 174, 255);
 }
 
 .action-buttons:active {
@@ -408,17 +408,23 @@ img {
 
 .article {
     width: 15vw;
+    padding: .5rem;
 }
 
 .article:hover {
     cursor: pointer;
     transform: scale(1.025);
+    border-radius: 1rem;
 }
 
-.article:not(.article:first-child) {
-    border-top: 0.1rem solid grey;
-    padding-top: 1rem;
-    margin-top: 1rem;
+.article:active {
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.border {
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 .trending {
@@ -452,6 +458,15 @@ img {
 .trending-user {
     display: grid;
     grid-template: 1fr / auto 1fr;
+    padding: .2rem;
+    align-items: center;
+}
+
+.trending-user:hover {
+    cursor: pointer;
+    background-color: #0ea5e9;
+    border-radius: 1rem;
+    color: white;
 }
 
 .trending-user > img {
