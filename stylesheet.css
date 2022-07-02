@@ -323,7 +323,6 @@ img {
     padding: 1rem;
     gap: 1rem;
     box-shadow: .2rem .2rem .5rem rgba(128, 128, 128, 0.50);
-    z-index: 1;
 }
 
 .card:hover {
@@ -356,7 +355,6 @@ img {
     justify-items: right;
     justify-self: right;
     gap: 3rem;
-    z-index: 3;
 }
 
 svg {
